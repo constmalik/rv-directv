@@ -19,4 +19,99 @@
 .dvr-wrap {
     margin-top: 56px;
     margin-bottom: 107px;
+}//.details-article
+.package-article {
+    
+    background-color: #F2F2F2;
+    &__top {
+        padding-top: 37px;
+        padding-left: 41px;
+        &--title {
+            font-size: 17px;
+            text-transform: uppercase;
+            padding-right: 64px;
+            span {
+                display: block;
+            }
+        }
+        &--price {
+            font-size: 32px;
+            margin-bottom: 0;
+            span {
+                font-size: 6px;
+            }
+        }
+        &--detail {
+            color: #4C4C4C;
+            font-size: 8px;
+            margin-bottom: 0;
+            margin-right: 22px;
+        }
+    }
+    &__middle {
+        padding-left: 38px;
+        &--title {
+            span {
+                color: #545454;
+                font-size: 22px;
+            }
+            a {
+                font-size: 10px;
+                text-decoration: underline;
+            }
+        }
+        &--list {
+            margin: 0 auto 0 -15px;
+            li {
+                margin-left: 18px;
+            }
+        }
+        &--premium-channels {
+            color: #545454;
+            font-size: 12px;
+            font-weight: bold;
+            margin-bottom: 0;
+        }
+    }
+    &__bottom {
+        padding-left: 40px;
+        padding-right: 26px;
+        &--title {
+            color: #545454;
+            font-size: 12px;
+            font-weight: bold;            
+            margin-bottom: 0;
+        }
+        &--text {
+            color: #4C4C4C;
+            font-size: 12px;
+            display: block;            
+        }
+    }
+}
+.select {
+    border-top: 10px solid #EFB300;
+}
+.entertainment {
+    border-top: 10px solid #00A383;
+}
+.choice {
+    border-top: 10px solid #4BACCB;
+}
+.plans-add-article {
+    margin-top: 38px;
+    &__subtitle {
+        font-size: 11px;
+        font-weight: 300;
+        color: #595959;
+        margin-bottom: 50px;
+    }
+    &__title {
+        font-size: 36px;
+    }
+    &__text {
+        font-size: 11px;
+        font-weight: 300;
+        color: #595959;        
+    }
 }

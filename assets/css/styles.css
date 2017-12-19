@@ -2897,6 +2897,11 @@ body {
     margin-top: 53px;
     margin-bottom: 50px; }
 
+.section--plans {
+  background-color: #FFF;
+  padding-top: 81px;
+  padding-bottom: 70px; }
+
 .button {
   background-color: #F36F02;
   border-radius: 100px; }
@@ -2907,6 +2912,10 @@ body {
   width: 100%;
   margin-top: 51px;
   margin-bottom: 44px; }
+
+.button.secondary {
+  background-color: #0078B7;
+  color: #fff; }
 
 .footer .footer-nav-wrap {
   margin-top: 30px;
@@ -2939,5 +2948,83 @@ body {
 .dvr-wrap {
   margin-top: 56px;
   margin-bottom: 107px; }
+
+.package-article {
+  background-color: #F2F2F2; }
+  .package-article__top {
+    padding-top: 37px;
+    padding-left: 41px; }
+    .package-article__top--title {
+      font-size: 17px;
+      text-transform: uppercase;
+      padding-right: 64px; }
+      .package-article__top--title span {
+        display: block; }
+    .package-article__top--price {
+      font-size: 32px;
+      margin-bottom: 0; }
+      .package-article__top--price span {
+        font-size: 6px; }
+    .package-article__top--detail {
+      color: #4C4C4C;
+      font-size: 8px;
+      margin-bottom: 0;
+      margin-right: 22px; }
+  .package-article__middle {
+    padding-left: 38px; }
+    .package-article__middle--title span {
+      color: #545454;
+      font-size: 22px; }
+    .package-article__middle--title a {
+      font-size: 10px;
+      text-decoration: underline; }
+    .package-article__middle--list {
+      margin: 0 auto 0 -15px; }
+      .package-article__middle--list li {
+        margin-left: 18px; }
+    .package-article__middle--premium-channels {
+      color: #545454;
+      font-size: 12px;
+      font-weight: bold;
+      margin-bottom: 0; }
+  .package-article__bottom {
+    padding-left: 40px;
+    padding-right: 26px; }
+    .package-article__bottom--title {
+      color: #545454;
+      font-size: 12px;
+      font-weight: bold;
+      margin-bottom: 0; }
+    .package-article__bottom--text {
+      color: #4C4C4C;
+      font-size: 12px;
+      display: block; }
+
+.select {
+  border-top: 10px solid #EFB300; }
+
+.entertainment {
+  border-top: 10px solid #00A383; }
+
+.choice {
+  border-top: 10px solid #4BACCB; }
+
+.plans-add-article {
+  margin-top: 38px; }
+  .plans-add-article__subtitle {
+    font-size: 11px;
+    font-weight: 300;
+    color: #595959;
+    margin-bottom: 50px; }
+  .plans-add-article__title {
+    font-size: 36px; }
+  .plans-add-article__text {
+    font-size: 11px;
+    font-weight: 300;
+    color: #595959; }
+
+.slick-dots li.slick-active button:before {
+  font-size: 20px;
+  color: #0078B7; }
 
 /*# sourceMappingURL=styles.css.map */
