@@ -13,6 +13,9 @@
         h1 {
             color: #fff;
         }
+        &__subtext {
+            font-size: 11px;
+        }
     }    
 
 }//.section--hero
@@ -34,4 +37,45 @@
     background-color: #FFF;
     padding-top: 81px;
     padding-bottom: 70px;
+    .postfix-round {
+        .small-9 {
+            input {
+                border-radius: 100px 0 0 100px;
+                height: 60px;
+            }
+            input::placeholder {
+                position: relative;
+                left: 50px;
+                font-style: italic;
+            }
+            img {
+                position: absolute;
+                top: 15px;
+                left: 25px;
+            }
+        }
+    }
+
 }
+
+.section--hero__bundles {
+    background-image: url(../img/bundles-hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;   
+    // height: 390px;
+    padding-top: 57px;
+    padding-bottom: 66px;
+    .hero-content {
+        // margin-top: 57px;
+        // margin-bottom: 66px;
+        color: #fff;
+        h1 {
+            color: #fff;
+        }
+        &__subtext {
+            font-size: 11px;
+        }
+    }    
+
+}//.section--hero
