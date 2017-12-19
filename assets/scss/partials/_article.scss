@@ -1,0 +1,22 @@
+.details-article {
+    margin-top: 70px;
+    &__title {
+        color: #009BDE;
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+    &__text {
+        margin-bottom: 0;
+    }
+    &__subtext {
+        font-size: 8px;
+    }
+}
+.tv-wrap {
+    margin-top: 70px;
+    margin-bottom: 123px;
+}
+.dvr-wrap {
+    margin-top: 56px;
+    margin-bottom: 107px;
+}

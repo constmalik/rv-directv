@@ -1,0 +1,32 @@
+.section--hero {
+    background-image: url(../img/home-hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;   
+    // height: 390px;
+    padding-top: 57px;
+    padding-bottom: 66px;
+    .hero-content {
+        // margin-top: 57px;
+        // margin-bottom: 66px;
+        color: #fff;
+        h1 {
+            color: #fff;
+        }
+    }    
+
+}//.section--hero
+.section--details {
+    background-color: #fff;
+}//.section--details
+
+.section--shop-bundles {
+    background-color: #0568AE;
+    &__text {
+        color: #FFF;
+        font-size: 34px;
+        margin-top: 53px;
+        margin-bottom: 50px;
+    
+    }
+}//.section--shop-bundles

@@ -1,0 +1,33 @@
+.header {
+    .directv-logo-wrap {
+        margin-top: 27px;
+        margin-bottom: 19px;
+    }
+    .nav-wrap {
+        margin-top: 32px;
+        margin-bottom: 31px;
+        .nav {
+            &__list {
+                margin: 0 auto;
+                li a {
+                    color: white;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+    .phone-wrap {
+        margin-top: 24px;
+        margin-bottom: 28px;
+        span {
+            color: #fff;
+            font-size: 12px;
+        }
+        p {
+            display: inline;
+            margin-bottom: 0;
+            color: #009BDE;
+            font-size: 24px;
+        }
+    }
+}
