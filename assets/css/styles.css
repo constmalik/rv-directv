@@ -3623,12 +3623,10 @@ body {
     font-size: 24px; }
 
 .section--hero {
-  background-image: url(../img/home-hero-bg.png);
-  background-size: cover;
+  background-image: url(../img/home-hero-bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  padding-top: 57px;
-  padding-bottom: 66px; }
+  padding-top: 57px; }
   .section--hero .hero-content {
     color: #fff; }
     .section--hero .hero-content h1 {
@@ -3649,8 +3647,7 @@ body {
 
 .section--plans {
   background-color: #FFF;
-  padding-top: 81px;
-  padding-bottom: 70px; }
+  padding-top: 81px; }
   .section--plans .postfix-round .small-9 input {
     border-radius: 100px 0 0 100px;
     height: 60px; }
@@ -3664,8 +3661,7 @@ body {
     left: 25px; }
 
 .section--hero__bundles {
-  background-image: url(../img/bundles-hero-bg.png);
-  background-size: cover;
+  background-image: url(../img/bundles-hero-bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
   padding-top: 57px;
@@ -3675,6 +3671,18 @@ body {
     .section--hero__bundles .hero-content h1 {
       color: #fff; }
     .section--hero__bundles .hero-content__subtext {
+      font-size: 11px; }
+
+.section--hero__customer {
+  background-image: url(../img/customer-hero-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 57px; }
+  .section--hero__customer .hero-content {
+    color: #fff; }
+    .section--hero__customer .hero-content h1 {
+      color: #fff; }
+    .section--hero__customer .hero-content__subtext {
       font-size: 11px; }
 
 .button {

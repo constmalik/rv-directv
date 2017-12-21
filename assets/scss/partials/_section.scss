@@ -1,11 +1,8 @@
 .section--hero {
-    background-image: url(../img/home-hero-bg.png);
-    background-size: cover;
+    background-image: url(../img/home-hero-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;   
-    // height: 390px;
     padding-top: 57px;
-    padding-bottom: 66px;
     .hero-content {
         // margin-top: 57px;
         // margin-bottom: 66px;
@@ -36,7 +33,6 @@
 .section--plans {
     background-color: #FFF;
     padding-top: 81px;
-    padding-bottom: 70px;
     .postfix-round {
         .small-9 {
             input {
@@ -59,8 +55,7 @@
 }
 
 .section--hero__bundles {
-    background-image: url(../img/bundles-hero-bg.png);
-    background-size: cover;
+    background-image: url(../img/bundles-hero-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;   
     // height: 390px;
@@ -78,4 +73,23 @@
         }
     }    
 
-}//.section--hero
+}//.section--hero__bundles
+.section--hero__customer {
+    background-image: url(../img/customer-hero-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;   
+    // height: 390px;
+    padding-top: 57px;
+    .hero-content {
+        // margin-top: 57px;
+        // margin-bottom: 66px;
+        color: #fff;
+        h1 {
+            color: #fff;
+        }
+        &__subtext {
+            font-size: 11px;
+        }
+    }    
+
+}//.section--hero__bundles
