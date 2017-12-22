@@ -11,14 +11,29 @@
     &__subtext {
         font-size: 8px;
     }
+    @media screen and (max-width: 320px) {
+        margin-top: 0;
+    }
+}
+.premium-wrap {
+    @media screen and (max-width: 320px) {
+        margin-bottom: 33px;
+    }
 }
 .tv-wrap {
     margin-top: 70px;
     margin-bottom: 123px;
+    @media screen and (max-width: 320px) {
+        margin-top: 0;
+        margin-bottom: 33px;
+    }
 }
 .dvr-wrap {
     margin-top: 56px;
     margin-bottom: 107px;
+    @media screen and (max-width: 320px) {
+        margin-top: 0;
+    }
 }//.details-article
 .package-article {
     

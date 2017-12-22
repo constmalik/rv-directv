@@ -29,5 +29,32 @@
             color: #009BDE;
             font-size: 24px;
         }
+        @media screen and (max-width: 320px) {
+            margin: 0;
+        }
+    }
+
+    .header-row-mobile {
+        .bar-wrap {
+            .fa-bars {
+                color: #FFF;
+                margin-top: 20px;
+                margin-bottom: 22px;
+            }
+        }
+        .directv-logo-wrap {
+            margin-top: 16px;
+            margin-bottom: 19px;
+        }
+        .phone-wrap {
+            margin-top: 10px;
+            margin-bottom: 10px;            
+            a {
+                border: 2px solid #009FDB;
+                border-radius: 100px;
+                color: #009FDB;
+                padding: 11px 20px 11px 18px;
+            }
+        }
     }
 }

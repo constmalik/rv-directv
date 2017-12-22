@@ -1,3 +1,8 @@
+.section {
+    @media screen and (max-width: 320px) {
+        text-align: center;
+    }
+ }
 .section--hero {
     background-image: url(../img/home-hero-bg.jpg);
     background-position: center;
@@ -9,12 +14,26 @@
         color: #fff;
         h1 {
             color: #fff;
+            font-size: 45px;
         }
-        &__subtext {
-            font-size: 11px;
+        &__text {
+            font-size: 18px;
+        }
+        @media screen and (max-width: 320px) {
+            margin-top: 50px;
+            h1 {
+                font-size: 30px;
+            }
+            &__text {
+                font-size: 16px;
+            }
         }
     }    
-
+    @media screen and (max-width: 320px) {
+        background-image: url(../img/home-hero-bg.jpg);
+        background-size: 320px;
+        background-position: -100px top;
+    }
 }//.section--hero
 .section--details {
     background-color: #fff;
@@ -30,6 +49,15 @@
     
     }
 }//.section--shop-bundles
+.section--shop-bundles-mobile {
+    background-color: #FFF;
+    padding-top: 41px;
+    border-bottom: 2px solid #F2F2F2;
+    &__text {
+        color: #000;
+        font-size: 28px;
+    }
+}
 .section--plans {
     background-color: #FFF;
     padding-top: 81px;
